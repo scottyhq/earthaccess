@@ -4,7 +4,6 @@ from typing import Any, Dict, List, Optional, Union
 
 from .formatters import _repr_granule_html
 
-
 class CustomDict(dict):
     _basic_umm_fields_: List = []
     _basic_meta_fields_: List = []

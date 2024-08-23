@@ -23,6 +23,7 @@ from .kerchunk import consolidate_metadata
 from .search import DataCollections, DataGranules
 from .store import Store
 from .system import PROD, UAT
+from .geopandas import results_to_geopandas
 
 logger = logging.getLogger(__name__)
 
@@ -42,6 +43,7 @@ __all__ = [
     "open",
     "download",
     "auth_environ",
+    "results_to_geopandas",
     # search.py
     "DataGranules",
     "DataCollections",
